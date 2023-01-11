@@ -24,8 +24,8 @@ const authlog = getAuth();
 const storage = getStorage();
 const db = getFirestore();
 
-import profileimg from '../../public/images/profileplaceholer.jpg'
-import BadgesDetails from '../admin/badgesdetails/[bid]';
+// import profileimg from '../../public/images/profileplaceholer.jpg'
+// import BadgesDetails from '../admin/badgesdetails/[bid]';
 import ujblogoimg from '../../public/images/ujblogo.png';
 
 
