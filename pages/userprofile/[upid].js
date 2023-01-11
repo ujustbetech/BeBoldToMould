@@ -280,7 +280,7 @@ const UserProfile = ({ userprofiledetails }) => {
             <li className='custom-profile'>
               {/* <div> */}
               {
-                profileImgDisplay ? <img src={profileImgDisplay} alt="profile" /> : <Image src="../../public/images/profileplaceholer.jpg" lt="profile_placeholder" width={200} height={200} layout='responsive' priority="true" />
+//                 profileImgDisplay ? <img src={profileImgDisplay} alt="profile" /> : <Image src="../../public/images/profileplaceholer.jpg" lt="profile_placeholder" width={200} height={200} layout='responsive' priority="true" />
               }
               <input id="file-upload"
                 type="file"
