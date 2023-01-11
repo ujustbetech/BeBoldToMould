@@ -253,7 +253,7 @@ const Dashboard = () => {
                                 
                             {/* </li>   */}
                             {/* <li className="btn"> */}
-                                <button
+                               <button
                                     type="submit"  onClick={togglePopup} >Agenda of Event</button> 
                                <button  className='feedback-btn'
                                     type="submit"
