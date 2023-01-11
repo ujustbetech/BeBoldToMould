@@ -23,8 +23,7 @@ import { FacebookShareButton, FacebookIcon, TwitterShareButton, TwitterIcon, Lin
 const authlog = getAuth();
 const storage = getStorage();
 const db = getFirestore();
-
-// import profileimg from '../../public/images/profileplaceholer.jpg'
+import profileimg from '../../public/images/profileplaceholer.jpg';
 // import BadgesDetails from '../admin/badgesdetails/[bid]';
 import ujblogoimg from '../../public/images/ujblogo.png';
 
@@ -280,7 +279,8 @@ const UserProfile = ({ userprofiledetails }) => {
             <li className='custom-profile'>
               {/* <div> */}
               {
-//                 profileImgDisplay ? <img src={profileImgDisplay} alt="profile" /> : <Image src="../../public/images/profileplaceholer.jpg" lt="profile_placeholder" width={200} height={200} layout='responsive' priority="true" />
+                // profileImgDisplay ? <img src={profileImgDisplay} alt="profile" /> : <img src={profileimg} alt="profile_placeholder" ></img>
+                //  <Image src={profileimg} alt="profile_placeholder" width={200} height={200} layout='responsive' priority="true" />
               }
               <input id="file-upload"
                 type="file"
