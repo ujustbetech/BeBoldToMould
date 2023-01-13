@@ -13,11 +13,11 @@ const db = getFirestore();
 import topbannerimg from '../public/images/topbanner.png';
 
 const threecheckdata = [
-    { name: "Proactive: You initiate the communication with the other Partners and Listed Partners" },
-    { name: "Reactive: You wait for other Partner or Listed Partner to initiate communication with you" },
-    { name: "Contextual: You connect with another Partner or Listed Partner either Proactively or Reactively based on the situation" },
-    { name: "Being Silent Observer: You just listen and take no action" },   
-    { name: "None of the above" },   
+    { name: "There are consistent and bold Orbiters (Partners) who are passing at least one referral per month" },
+    { name: "There are consistent and bold Cosmonauts (Listed Partners) who are creating impact by closing minimum one deal every month" },
+    { name: "There are consistent and bold Propeller (Mentors) who are empowering at least one Orbiter to become active every month " },
+    { name: "Only those, who are contributors, are growing in UJustBe Universe" },   
+    { name: "All of the above" },   
       
 ];
 
@@ -324,7 +324,7 @@ const PostForm = () => {
 
                                 {/* 1st question */}
                         <div className="form-row radio-buttons">
-                            <h2>1. Do you think that there is two-way communication happening in the Monthly Meetings?<sup>*</sup></h2>
+                            <h2>1. Do you think that the Nucleus Team members represents the BOLD value in the Monthly Meetings?<sup>*</sup></h2>
                             <ul>
 
                                 <li>
@@ -377,7 +377,7 @@ const PostForm = () => {
 
                         {/* 2nd question */}
                         <div className="form-row radio-buttons">
-                            <h2>2. Do you like the way UJusBe Core and Nucleus teams communicate in the Monthly Meeting?<sup>*</sup></h2>
+                            <h2>2. Do you like to represent yourself the way Nucleus Team Member represented in the Monthly Meeting?<sup>*</sup></h2>
 
                             <ul>
                             <li>
@@ -418,7 +418,7 @@ const PostForm = () => {
 
                         {/* 3nd question */}
                         <div className="form-row radio-buttons">
-                            <h2>3. As an Explorer Partner, which of the below types of communication you shall do?<sup>*</sup> </h2>
+                            <h2>3. a participant, what did you observe in today’s Monthly Meeting?<sup>*</sup> </h2>
                             <ul>
 
                                 <li >
@@ -450,7 +450,7 @@ const PostForm = () => {
 
                         {/* 4th question */}
                         <div className="form-row radio-buttons">
-                                <h2>4. Do you think that you can explore and grow in UJustBe without any communication? <sup>*</sup></h2>
+                                <h2>4. Do you think that you can explore and grow in UJustBe without being BOLD?<sup>*</sup></h2>
                                 <ul>
 
                                     <li>
@@ -538,7 +538,7 @@ const PostForm = () => {
 
                         {/* 6th question */}
                         <div className="form-row radio-buttons">
-                            <h2>6. Will you accept help from Nucleus Team to explore ways to enhance your communication, if offered? <sup>*</sup>  </h2>
+                            <h2>6. Will you like to be part of the Nucleus Team to empower other Orbiters (Partners) using your skills and experience?   <sup>*</sup>  </h2>
                             <ul>
 
                                 <li>
